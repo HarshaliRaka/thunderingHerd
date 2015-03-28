@@ -1,16 +1,16 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
 #using mysql as DB
-gem 'activerecord-jdbcsqlite3-adapter'
-gem 'jruby-openssl' , :require => false
-gem 'jdbc-mysql'
-gem 'activerecord-jdbcmysql-adapter'
+#gem 'activerecord-jdbcsqlite3-adapter'
+#gem 'jruby-openssl' , :require => false
+#gem 'jdbc-mysql'
+#gem 'activerecord-jdbcmysql-adapter'
 
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
+gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
