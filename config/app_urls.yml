@@ -1,0 +1,8 @@
+development:
+ send_mail_url: "http://localhost:3000/alerts_mail/send_mail.json"
+
+test:
+ send_mail_url: "http://localhost:3000/alerts_mail/send_mail.json"
+
+production:
+  send_mail_url: "http://localhost:3000/alerts_mail/send_mail.json"
